@@ -66,6 +66,7 @@ Integrations are provided to support propriatery devices and control systems inc
       * Reefbot 1
       * Reefbot 2
   - RedSea ReefBeat
+  - 0 - 10v controls
 
 ## Recorder
 AIqua through native Home Assistant functionality provides a comprehensive solution for recording the [history](https://www.home-assistant.io/integrations/history/) of water parameters and control events. Statictics can be reported using the supplied Dashboards. 
@@ -109,3 +110,9 @@ Protols supported include:
   - Bluetooth
 
 Wherever possible we reccomend using local rather than cloud controlled integrations as you'll see better responsiveness and reliability.
+
+## Getting Started
+
+## Limitations
+
+## Support
