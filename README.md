@@ -5,6 +5,8 @@ An open source for creating powerful aquaculture solutions. For monitoring water
 
 The initial focus of this project is making stony coral easier to grow and propogate, but the functionality applies to freshwater and saltwater aquariums and aquaculture.
 
+AIqua is intended to be a powerful, scalable, and more cost effective solution than propritarty solutions available on the market. 
+
 ## Can I use AIqua?
 AIqua can be used by anyone regardless of your technical or coding experience.
 
@@ -88,3 +90,22 @@ The library of AIqua automation blueprints currently includes:
   - Automatic Water Changes
   - Suppliment Control (e.g. increase alkalinity suppliment by x ml when parameter out of target range)
   - Temperature Control (e.g. turn heaters and chillers off and on when paramter out of target range)
+
+## Controls
+AIqua uses Home Assiatant [integrations](https://www.home-assistant.io/integrations/) to control the power supply to smart devices including:
+- Power Sockets
+    * Individual power sockets
+    * Power boards
+    * USB 5v
+- Lights
+- Fans
+- Covers
+
+Protols supported include:
+  - WiFi
+  - Matter / Thread
+  - Zigbee
+  - Zwave
+  - Bluetooth
+
+Wherever possible we reccomend using local rather than cloud controlled integrations as you'll see better responsiveness and reliability.
