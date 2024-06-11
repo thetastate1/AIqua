@@ -58,13 +58,13 @@ AIqua provides sensor templates for monitoring:
 AIqua provides integrations to hardware and software outside the esphome and Home Assistant native [integrations](https://www.home-assistant.io/integrations/).
 
 Integrations are provided to support propriatery devices and control systems including:
-  - Ecotech
+  - Ecotech Mobius using [MobiusMQTT <link>](https://github.com/thetastate1/MobiusMQTT)
       * Versa
       * Vortech
       * Radion
       * Nero
       * AI Prime
-        See [MobiusMQTT <link>](https://github.com/thetastate1/MobiusMQTT)
+    
   - Neptune Apex
   - Reef Kinetics
       * Reefbot 1
@@ -97,7 +97,7 @@ The library of AIqua automation blueprints currently includes:
   - Temperature Control (e.g. turn heaters and chillers off and on when paramter out of target range)
 
 ## Controls
-AIqua uses Home Assiatant [integrations](https://www.home-assistant.io/integrations/) to control the power supply to smart devices including:
+AIqua uses Home Assistant [integrations](https://www.home-assistant.io/integrations/) to control the power supply to smart devices including:
 - Power Sockets
     * Individual power sockets
     * Power boards
