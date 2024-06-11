@@ -102,12 +102,13 @@ AIqua uses Home Assiatant [integrations](https://www.home-assistant.io/integrati
 - Fans
 - Covers
 
-Protols supported include:
+Protocols supported include:
   - WiFi
   - Matter / Thread
   - Zigbee
   - Zwave
   - Bluetooth
+  - MQTT
 
 Wherever possible we reccomend using local rather than cloud controlled integrations as you'll see better responsiveness and reliability.
 
