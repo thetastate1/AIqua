@@ -61,6 +61,10 @@ Integrations are provided to support propriatery devices and control systems inc
   - Ecotech
       * Versa
       * Vortech
+      * Radion
+      * Nero
+      * AI Prime
+        See [MobiusMQTT <link>](https://github.com/thetastate1/MobiusMQTT)
   - Neptune Apex
   - Reef Kinetics
       * Reefbot 1
